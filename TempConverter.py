@@ -1,3 +1,7 @@
+#Author: Marcus Crowe
+#Creation Date: 1/30/25
+
+#Importing packages to create a better UX
 import pyinputplus as pyip
 from colorama import Fore, Back, Style, init
 
@@ -30,4 +34,5 @@ def main():
             print('Thank you for using the Temperature Converter.')
             break
 
+#Calling the function
 main()
